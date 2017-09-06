@@ -2,7 +2,7 @@
 =====================
 
 This P4 program allows the on-switch mixing of certain raster
-rows (a.k.a. scan lines) from one SMPTE TS 2110-20 flow with
+rows (a.k.a. scan lines) from one SMPTE ST 2110-20 flow with
 certain raster rows from another 2110-20 flow.  (It probably
 also works with the very similar RFC 4175).  The resulting
 combined flow has its destination IP address restamped.
