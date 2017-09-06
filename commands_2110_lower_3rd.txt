@@ -1,0 +1,3 @@
+table_set_default schedule_table _drop
+table_add schedule_table take_video 239.0.0.1 0->480 => 239.0.0.3 0
+table_add schedule_table take_video 239.0.0.2 481->719 => 239.0.0.3 0
