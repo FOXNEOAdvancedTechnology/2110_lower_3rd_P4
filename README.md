@@ -19,6 +19,11 @@ Rows 0-480 come from the flow with DST IP 239.0.0.1
 Rows 481-719 come from the flow with DST IP 239.0.0.2
 The resulting output flow is restamped with DST IP 239.0.0.3
 
+2110_lower_3rd_screenshot.png: Wireshark screenshot showing
+how the switch output flows change from source 10.10.10.11
+at lines (aka rows) up to 480, then starting with line 481
+the source comes from 10.10.10.12.
+
 If you need a SMPTE ST 2110-20 Wireshark dissector, see:
 https://github.com/FOXNEOAdvancedTechnology/smpte2110-20-dissector
 
