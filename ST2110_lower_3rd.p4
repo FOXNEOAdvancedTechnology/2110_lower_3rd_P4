@@ -205,11 +205,11 @@ counter my_direct_counter {
     direct: schedule_table;
 }
 
-action take_video(dst_ip) {
+action take_video(dst_ip,dport) {
 //    BMV2 version
-//    modify_field(standard_metadata.egress_spec,1);
+//    modify_field(standard_metadata.egress_spec,dport);
 
-      modify_field(ig_intr_md_for_tm.ucast_egress_port,1);
+      modify_field(ig_intr_md_for_tm.ucast_egress_port,dport);
       modify_field(ipv4.dstAddr,dst_ip);
 }
 
