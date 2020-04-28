@@ -29,6 +29,6 @@ lower_3rd.jpg: Actual mixture of two live ST 2110-20 video
 sources, split at line 520 in a 720p59.94 signal.
 
 If you need a SMPTE ST 2110-20 Wireshark dissector, see:
-https://github.com/FOXNEOAdvancedTechnology/smpte2110-20-dissector
+https://github.com/NEOAdvancedTechnology/smpte2110-20-dissector
 
 Note this P4 program has now been developed for a Tofino target.
